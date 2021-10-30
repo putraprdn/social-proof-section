@@ -39,7 +39,7 @@ body {
   background-image: url(./images/bg-pattern-top-desktop.svg),
     url(./images/bg-pattern-bottom-desktop.svg);
   background-repeat: no-repeat, no-repeat;
-  background-position: right 60vw bottom 50vh, left 20vw top 30vh;
+  background-position: right 60vw bottom 60vh, left 20vw top 30vh;
   background-color: var(--White);
 
   display: flex;
@@ -81,13 +81,13 @@ body {
   flex-basis: 50%;
   display: flex;
   flex-direction: column;
-  margin-left: 2rem;
+  margin-left: 3rem;
   padding: 0 0 1rem 5rem;
 }
 .rating-container {
   width: 100%;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   background: var(--Light-Grayish-Magenta);
   border-radius: 10px;
