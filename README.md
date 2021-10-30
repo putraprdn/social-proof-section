@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://raw.githubusercontent.com/putraprdn/social-proof-section/master/design/screenshot.png)
+![](https://raw.githubusercontent.com/putraprdn/social-proof-section/master/images/screenshot.png)
 
 ### Links
 
