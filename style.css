@@ -51,7 +51,6 @@ body {
     --------------- MAIN CSS */
 .main {
   margin: 18vh 12vw;
-  /* background: blue; */
 }
 .main-top {
   display: flex;
@@ -171,15 +170,20 @@ div.comment p {
     margin-top: 2rem;
 }
 
+
+/* 
+--------------- RESPONSIVE GOES HERE */
 @media screen and (max-width: 500px) {
   html {
     font-size: 12px
   }
   body {
     background-image: url(./images/bg-pattern-bottom-mobile.svg), url(./images/bg-pattern-top-mobile.svg);
-    background-position: right 10vw bottom 0, left 10vw top 0;
+    background-position: right 0 bottom 0, left 0 top 0;
+background-size: 100%;
   }
   .main {
+    margin-top: 10vh;
     flex-direction: column;
   }
   .main-top {
@@ -198,6 +202,7 @@ div.comment p {
   }
   .rating {
     margin: 2rem 0 0 0;
+    padding-left: 0;
     justify-content: center;
     align-items: center;
   }
